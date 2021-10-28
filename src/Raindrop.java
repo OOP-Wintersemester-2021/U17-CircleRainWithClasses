@@ -4,8 +4,8 @@ import de.ur.mi.oop.graphics.Circle;
 /*
     Diese Klasse soll Eigenschaften eines Elements im CircleRain in einer Struktur zusammenfassen.
     Anders als in der ursprünglichen Aufgabe verwenden wir also nicht zwei Arrays, deren Werte sich auf ein logisches Element beziehen.
-    Stattdessen wir für jeden Kreis eine Instanz der Klasse Raindrop erstellt.
-    Dieses Objekt kann entsprechend manipuliert werden um Größe, Geschwindigkeit und Verkleinerungsrate eines kreises anzupassen.
+    Stattdessen wird für jeden Kreis eine Instanz der Klasse Raindrop erstellt.
+    Dieses Objekt kann entsprechend manipuliert werden um Größe, Geschwindigkeit und Verkleinerungsrate eines Kreises anzupassen.
     Ein großer Vorteil dieses Ansatzes ist es, dass Werte die logisch zusammengehörig sind, in einer gemeinsamen Einheit liegen.
  */
 public class Raindrop {
