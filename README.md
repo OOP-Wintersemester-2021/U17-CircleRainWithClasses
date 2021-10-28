@@ -1,6 +1,6 @@
 # U17 | CircleRainWithClasses
 
-In dieser Aufgabe wird CircleRain aus ![U14](https://oop-wintersemester-2021.github.io/AssignmentViewer-OOP/#OOP-Wintersemester-2021/U14-CircleRain) einem `Refactoring` unterzogen: 
+In dieser Aufgabe wird CircleRain aus [U14](https://oop-wintersemester-2021.github.io/AssignmentViewer-OOP/#OOP-Wintersemester-2021/U14-CircleRain) einem `Refactoring` unterzogen: 
 Als Ausgangspunkt wird der Lösungsvorschlag von U14 verwendet.
 In U14 werden zwei Arrays verwendet:
 - `private Circle[] circles`
