@@ -8,6 +8,7 @@ In U14 werden zwei Arrays verwendet:
 
 ![Demo](./docs/circle_rain_demo.gif)
 
+
 Die Werte beider Arrays beziehen sich allerdings logisch auf ein Element.
 Um die Struktur des Programms zu verbessern, sollen beide Arrays mit einem einzigen Array, das Objekte der Klasse `RainDrop` speichert, ersetzt werden.
 Die Klasse `RainDrop` enthält den Kreis, der gezeichnet werden soll und die Geschwindigkeit mit der dieser sich zum unteren Rand der Zeichenfläche bewegt.
