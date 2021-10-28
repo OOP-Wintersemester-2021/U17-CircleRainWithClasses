@@ -6,13 +6,15 @@ In U14 werden zwei Arrays verwendet:
 - `private Circle[] circles`
 - `private float[] circleSpeeds`
 
+![Demo](./docs/circle_rain_demo.gif)
+
 Die Werte beider Arrays beziehen sich allerdings logisch auf ein Element.
 Um die Struktur des Programms zu verbessern, sollen beide Arrays mit einem einzigen Array, das Objekte der Klasse `RainDrop` speichert, ersetzt werden.
 Die Klasse `RainDrop` enthält den Kreis, der gezeichnet werden soll und die Geschwindigkeit mit der dieser sich zum unteren Rand der Zeichenfläche bewegt.
 Zusätzlich soll das bisherige Verhalten eines Objekts der Klasse `RainDrop` erweitert werden.
 Mit fortschreitender Falldauer, soll der Kreis eines `RainDrop` immer kleiner werden (d.h. der Radius des Kreises wird kleiner).
+Ermitteln Sie hierfür für jedes Objekt der Klasse `RainDrop` einmalig einen zufälligen Wert für die Rate der Abnahme der Größe des Kreises, so wie es analog für dessen Farbe und Geschwindigkeit auch schon getan wurde.
 Legen Sie dazu notwendige Variablen und Methoden in der Klasse `RainDrop` an.
 
-![Demo](./docs/circle_rain_demo.gif)
 
 Die Klasse `CircleRain` wird nur verwendet, um die Methoden `draw()` und `update()` von Objekten der Klasse `RainDrop` aufzurufen und um selbige Objekte zu erstellen. Sonst wird jegliche Logik in der Klasse `RainDrop` implementiert. 
